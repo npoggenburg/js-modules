@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TypeScript Website</title>
+        <link rel="stylesheet" href="src/styles/style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <!-- Main Menu -->
+            <nav class="main-menu">
+                <div class="logo">
+                    <a href="/">Logo</a>
+                </div>
+
+                <ul class="menu-items">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li class="dropdown">
+                        <button class="dropdown-toggle">Services</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="/services/1">Service 1</a></li>
+                            <li><a href="/services/2">Service 2</a></li>
+                            <li><a href="/services/3">Service 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+
+                <div class="menu-right">
+                    <!-- Language Menu -->
+                    <div class="language-menu">
+                        <button class="language-toggle">English</button>
+                        <ul class="language-dropdown">
+                            <li><button data-lang="en" class="active">English</button></li>
+                            <li><button data-lang="fr">Français</button></li>
+                            <li><button data-lang="es">Español</button></li>
+                            <li><button data-lang="de">Deutsch</button></li>
+                        </ul>
+                    </div>
+
+                    <!-- Mobile Menu Toggle -->
+                    <button class="mobile-menu-toggle" id="offcanvas-toggle">
+                        <span class="menu-icon">☰</span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <section id="section-hero" data-section="Hero">
+            <h1>Welcome to Our Website</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat cupiditate
+                non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad, sed quo quos
+                maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore distinctio cum, ipsam vel
+                magni dolor quos quae asperiores voluptatem.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat cupiditate
+                non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad, sed quo quos
+                maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore distinctio cum, ipsam vel
+                magni dolor quos quae asperiores voluptatem.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat cupiditate
+                non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad, sed quo quos
+                maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore distinctio cum, ipsam vel
+                magni dolor quos quae asperiores voluptatem.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat cupiditate
+                non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad, sed quo quos
+                maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore distinctio cum, ipsam vel
+                magni dolor quos quae asperiores voluptatem.
+            </p>
+        </section>
+
+        <main data-section-menu>
+            <section id="section-main" data-section="Main">
+                <h2>Main</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+            </section>
+            <section id="section-teaser" data-section="Teaser">
+                <h2>Teaser</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+            </section>
+            <section id="section-contact" data-section="Contact">
+                <h2>Contact</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus modi ipsa praesentium fugiat
+                    cupiditate non sint, voluptatem asperiores odit, assumenda molestias laudantium ratione numquam ad,
+                    sed quo quos maxime saepe earum eligendi. Fugiat, rem nesciunt repellendus eius in a labore
+                    distinctio cum, ipsam vel magni dolor quos quae asperiores voluptatem.
+                </p>
+            </section>
+        </main>
+
+        <!-- Off Canvas Menu -->
+        <div class="offcanvas-backdrop"></div>
+        <div class="offcanvas-menu">
+            <div class="offcanvas-header">
+                <h2>Menu</h2>
+                <button class="close-button">×</button>
+            </div>
+
+            <div class="offcanvas-body">
+                <nav class="mobile-nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li class="mobile-dropdown">
+                            <span>Services</span>
+                            <ul class="mobile-submenu">
+                                <li><a href="/services/1">Service 1</a></li>
+                                <li><a href="/services/2">Service 2</a></li>
+                                <li><a href="/services/3">Service 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
